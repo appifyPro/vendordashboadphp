@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100" height="100">
+	<defs>
+		<image width="704" height="704" id="img1" href="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzEwMHB4JyB3aWR0aD0nMTAwcHgnICBmaWxsPSIjMDUyMjRjIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMiIgdmlld0JveD0iMCAwIDY0IDY0IiB4PSIwcHgiIHk9IjBweCI+PHRpdGxlPm1vbml0b3I8L3RpdGxlPjxwYXRoIGQ9Ik01OSw3SDVhMywzLDAsMCwwLTMsM1Y0NmEzLDMsMCwwLDAsMywzSDI1Ljg3bC0uNzUsNkgyM2ExLDEsMCwwLDAsMCwySDQxYTEsMSwwLDAsMCwwLTJIMzguODhsLS43NS02SDU5YTMsMywwLDAsMCwzLTNWMTBBMywzLDAsMCwwLDU5LDdaTTUsOUg1OWExLDEsMCwwLDEsMSwxVjM5SDRWMTBBMSwxLDAsMCwxLDUsOVpNMzYuODcsNTVIMjcuMTNsLjc1LTZoOC4yNFpNNTksNDdINWExLDEsMCwwLDEtMS0xVjQxSDYwdjVBMSwxLDAsMCwxLDU5LDQ3WiI+PC9wYXRoPjwvc3ZnPg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="monitor" href="#img1" transform="matrix(0.946,0,0,0.946,167,167)"/>
+</svg>

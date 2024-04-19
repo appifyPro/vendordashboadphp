@@ -1,0 +1,28 @@
+footer {
+	display: none;
+}
+
+body {
+	background: #f1f2f2!important;
+	height: auto;
+}
+
+@media(max-width:1199px) {
+	.rsp-home-tab.tabhome,.top-links-section.mobile-view,.navigation--list.px-3,.bread-crumb.shadow-lg {
+		display: none !important;
+	}
+
+	.shopping-cart .shopping-cart-container {
+		margin: 0 !important;
+		padding: 0 !important;
+		max-width: 100% !important;
+	}
+
+	.mobile-view {
+		display: block !important;
+	}
+
+	.desktop-view {
+		display: none !important;
+	}
+}

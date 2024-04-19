@@ -1,0 +1,22 @@
+.ps-footer > .container-fluid.bg-white
+,.chat-bubble-section{
+	display:none;
+}
+body{
+	background:#f1f2f2!important;
+}
+.physical_tabs_content .physical_navs{
+	width: 30% !important;
+}
+@media(max-width:1199px){
+	.physical_tabs_content .physical_navs,
+	.physical_part .physical_input_box_part{
+		width: 60% !important;
+	}
+}
+@media(max-width:767px){
+	.physical_tabs_content .physical_navs,
+	.physical_part .physical_input_box_part{
+		width: 95% !important;
+	}
+}

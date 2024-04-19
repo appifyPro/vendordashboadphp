@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="#343434" version="1.1" x="0px" y="0px" height="100px" width="100px">
+	<circle stroke="none" fill="#f1f2f2" r="48%" cx="50%" cy="50%"/>
+	<g transform="translate(-640 85) scale(0.69 0.69) rotate(270)">
+		<path d="m 50.343796,1022.3919 a 4.0004,4.0004 0 0 0 2.28122,-0.9688 l 37,-32.00003 a 4.0004,4.0004 0 1 0 -5.25,-6.0313 l -34.37502,29.71883 -34.375,-29.71883 a 4.0004,4.0004 0 1 0 -5.25,6.0313 l 37,32.00003 a 4.0004,4.0004 0 0 0 2.9688,0.9688 z" fill="#343434" fill-opacity="1" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible"/>
+	</g>
+</svg>

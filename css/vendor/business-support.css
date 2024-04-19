@@ -1,0 +1,168 @@
+footer,
+.chat-bubble-section{
+	display:none;
+}
+body{
+	background:#f1f2f2!important;
+}
+.line-height1\.2{
+	line-height: 1.2 !important;
+}
+#vendor-talk-icon{
+	display:none;
+}
+#vendor-chat-icon{
+	display:block;
+	width:40px;
+}
+.support-inbox .support-leftSide-bar{
+	border-radius:0 5px 0 0;
+}
+.support-inbox .policy .usefull-links li:hover{
+	background: #F0F2F5;
+}
+.support-inbox .policy .usefull-links li:hover a span{
+	color:#0068FF !important;
+}
+.blue-dot{
+	height: 5px;
+	width: 5px;
+	display: inline-block;
+	border-radius: 50%;
+	background: #045DDE;
+	margin-right: 7px;
+}
+.support-inbox .right-side-box .issueCategory  li{
+	max-width:477px;
+}
+.user-issue-area .issueCategory  ul li a:hover{
+	box-shadow: 0px 3px 10px rgba(0,0,0,.5) !important;
+}
+#toggle-bg{
+	padding: 12px 0 !important;
+}
+.mediumScreenLogo {
+    display: none;
+}
+@media(min-width:992px){
+	.support-inbox .left-side-box{
+		width: 357px;
+		height: calc(100vh - 61px - 3rem);
+		position:fixed;
+	}
+	.support-inbox .right-side-box{
+		width: calc(100% - 357px);
+		margin-left:357px;
+	}
+	.support-inbox .right-side-box .user-issue-area{
+		max-width:calc(100% - 482px);
+		margin:0 auto;
+	}
+	.support-inbox .inboxContainer{
+		margin-top:3rem;
+		display:flex;
+	}
+	.inboxContainer .support-leftSide-bar .usefull-links{
+		height: calc(100vh - 481px - 7rem)
+	}
+}
+@media(min-width:1025px) and (max-width:1199px){
+	.support-inbox .left-side-box {
+		height: calc(100vh - 66px - 3rem);
+		position:sticky;
+	}
+	.support-inbox .right-side-box .user-issue-area{
+		max-width:477px;
+	}
+	.support-inbox .right-side-box{
+		margin:0 !important
+	}
+	.support-inbox .inboxContainer{
+		margin-top:0;
+	}
+	body > :is(.navigation--list.px-3,.top-links-section.mobile-view){
+		display:none !important;
+	}
+	.support-inbox .right-side-box .user-issue-area{
+		padding-top:2.5rem;
+	}
+}
+@media(min-width:992px) and (max-width:1024px){
+	.support-inbox .left-side-box {
+		height: calc(100vh - 3rem);
+		position:sticky;
+	}
+	.support-inbox .right-side-box .user-issue-area{
+		max-width:477px;
+	}
+	.support-inbox .right-side-box{
+		margin:0 !important
+	}
+	.support-inbox .inboxContainer{
+		margin-top:0;
+	}
+	body > :is(.navigation--list.px-3,.top-links-section.mobile-view){
+		display:none !important;
+	}
+	.support-inbox .right-side-box .user-issue-area{
+		padding-top:2.5rem;
+	}
+}
+@media(min-width:768px) and (max-width:991px){
+	.support-inbox .left-side-box{
+		top: 0;
+		position: fixed;
+		z-index: 950;
+		height: calc(100vh - 66px);
+		width: 100%;
+		left: -100%;
+	}
+	.support-inbox .right-side-box .user-issue-area{
+		max-width:477px;
+		margin:0 auto;
+	}
+	.support-inbox .inboxContainer{
+		padding-top:2rem;
+	}
+	.support-inbox .right-side-box .showMenu,.support-inbox .left-side-box .closeSideBar{
+		display:block !important;
+	}
+	.support-inbox .support-leftSide-bar{
+		height:100%;
+	}
+	#vendor-chat-icon{
+		bottom: 76px;
+	}
+	body > :is(.navigation--list.px-3,.top-links-section.mobile-view){
+		display:none !important;
+	}
+}
+@media(min-width:320px) and (max-width:767px){
+	.support-inbox.main-container{
+		padding-bottom: 66px;
+	}
+	.support-inbox .left-side-box{
+		top: 0;
+		position: fixed;
+		z-index: 950;
+		height: calc(100vh - 66px);
+		width: 100%;
+		left: -100%;
+	}
+	.support-inbox .right-side-box .user-issue-area{
+		max-width:90%;
+		margin:0 auto;
+	}
+	.user-issue-area .issueCategory ul li a img.mr-5{
+		margin-right:1rem !important;
+	}
+	.support-inbox .inboxContainer {
+		margin-top: 0rem;
+	}
+	body > :is(.tablet-view,.navigation--list,.top-links-section.mobile-view){
+		display:none !important;
+	}
+	#vendor-chat-icon{
+		bottom: 76px;
+	}
+}

@@ -1,0 +1,237 @@
+
+footer{	display:none;}
+*{	font-family: nunito;}
+body{
+	background:#f1f2f2!important;
+	height:auto;
+}
+#customer-order-list_length,#customer-order-list_filter,
+#gross-earning_length,#gross-earning_filter,
+#customer-future-traction_length,#customer-future-traction_filter{
+	display:none;
+}
+.badge{
+	font-size: 13px;
+	padding: 5px 8px;
+	font-weight: normal;
+}
+.badge-success-lighten {
+	color: #086200;
+	background-color: #B4FFAD;
+}
+.badge-warning-lighten {
+	color: #FFAF51;
+	background-color: rgba(255,255,104,.56);
+}
+.badge-info-lighten {
+	color: #0068FF;
+	background-color: #BEE9EF;
+}
+.badge-danger-lighten {
+	color: #FD0707;
+	background-color: #FFB1B1;
+}
+#customer-order-list td,#customer-order-list th,
+#gross-earning td,#gross-earning th
+#customer-future-traction td,#customer-future-traction th{
+	padding:15px !important;
+	line-height:1.5;
+	vertical-align: middle;
+}
+
+#customer-order-list thead.table-light tr th,
+#gross-earning thead.table-light tr th,
+#customer-future-traction thead.table-light tr th{
+	font-size:15px;
+	text-transform: capitalize;
+}
+#customer-order-list thead.table-light,
+#gross-earning thead.table-light,
+#customer-future-traction thead.table-light{
+	background:#eef2f7;
+}
+#customer-order-list_filter label,
+#gross-earning_filter label,
+#customer-future-traction_filter label{
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+#customer-order-list_filter label input,
+#gross-earning_filter label input,
+#customer-future-traction_filter label input{
+	width: auto;
+	margin-left: 10px;
+	border-radius: 5px;
+	background: rgb(240, 242, 245);
+	border: 0;
+}
+#customer-order-list_info,
+#gross-earning_info,
+#customer-future-traction_info{
+	font-size: 14px;
+	font-family: Nunito;
+	color: #838c96 !important;
+}
+#customer-order-list_paginate ul li,
+#customer-future-traction_paginate ul li,
+#gross-earning_paginate ul li{
+	background: none;
+	padding: 0;
+}
+#customer-order-list_paginate,
+#customer-future-traction_paginate,
+#gross-earning_paginate{
+	text-align:right;
+}
+#customer-order-list_paginate .pagination .page-item .page-link,
+#customer-future-traction_paginate .pagination .page-item .page-link,
+#gross-earning_paginate .pagination .page-item .page-link{
+	border-radius: 50%;
+	text-align: center;
+	margin:0 5px;
+	height: 36px;
+	width: 36px;
+	line-height: 27px;
+}
+#customer-order-list_paginate .pagination .page-item .page-link:focus,
+#customer-future-traction_paginate .pagination .page-item .page-link:focus,
+#gross-earning_paginate .pagination .page-item .page-link:focus{
+	box-shadow:none !important;
+}
+.vendor-customer-transactions{
+	padding-bottom:80px;
+}
+.table-area{
+	align-items:start;
+}
+.table-area .payout-tabs a.active{
+	color: #007bff !important;
+}
+a.bg-secondary:focus{
+	background:#f0f2f5 !important;
+}
+#gross-earning_wrapper,#customer-future-traction_wrapper{
+	display:none;
+}
+.checkin_part .t-datepicker .t-dates .t-date-info-title{
+	margin:0 !important;
+}
+.checkin_part .t-check-in, .checkin_part .t-check-out{
+	height:40px;
+}
+.table-area .transaction-history{
+	width: 360px;
+	flex-shrink: 0;
+	padding: 15px;
+	max-width: 330px;
+	margin-left: auto;
+	border-radius: 5px;
+	background: #0e1b39;
+	position: sticky;
+	top: 169px;
+}
+.table-area .card{
+	width: calc(100% - 360px) !important;
+}
+.transaction-history .history-table tbody td{
+	color: #bac3d5;
+	padding: 1px 0;
+	vertical-align: middle;
+	font-size: 13px;
+}
+.transaction-history .history-table :is(tbody tr td:last-child,thead tr th:last-child){
+	text-align:right;
+	font-weight: 700;
+	color: #fff;
+}
+.transaction-history .history-table thead th{
+	padding: 15px 0 0;
+	color:#fff;
+	vertical-align:middle;
+}
+.transaction-history .history-table .blank td{
+	padding:0 !important;
+}
+.transaction-history .history-table .section-heading td{
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+}
+.transaction-history .history-table .transaction-sum td:first-child{
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+}
+.transaction-history .history-table .transaction-sum td:last-child{
+	font-size: 24px;
+	font-weight: 600;
+	color: #547be8;
+}
+.transaction-history .history-table .blank td::after{
+	content: '';
+	height: 1px;
+	background: #bac3d5;
+	display: inline-block;
+	width: 100%;
+	margin: 5px 0;
+}
+#customer-order-list_wrapper .row:last-child,
+#customer-future-traction_wrapper .row:last-child,
+#gross-earning_wrapper .row:last-child{
+	margin:0 !important;
+}
+.transaction-history .our-custom-select .selected-value{
+	padding: 0 25px 0 0 !important;
+}
+.transaction-history .our-custom-select{
+	min-width: 90px;
+	height: 40px;
+	padding:8px 0 0 !important;
+} 
+.transaction-history .our-custom-select .selected-value::after {
+	color:#fff;
+	right:0;
+}
+#customer-order-list thead th,
+#customer-future-traction thead th,
+#gross-earning thead th{
+	width:1% !important;
+}
+@media(max-width:1199px){
+	.table-area .card{
+		width: 100% !important;
+	}
+	.table-area .transaction-history{
+		margin-top:20px;
+		width: 100%;
+		max-width:100%;
+	}
+	.pagination.d-flex.selectdate .page-link.py-4.px-3{
+		padding:10px !important;
+	}
+}
+@media(min-width:320px) and (max-width:767px){
+	.shop-bundel-section .tab-pane.active .payout-tabs,
+	.shop-bundel-section .tab-pane.active .other-options{
+		flex-direction: column;
+		align-items: start !important;
+	}
+	.shop-bundel-section .tab-pane.active .payout-tabs > div{
+		width:100%;
+		margin:0 !important;
+	}
+	.shop-bundel-section .tab-pane.active .payout-tabs > div > a{
+		margin-bottom:10px;
+		display:block;
+	}
+	.shop-bundel-section .tab-pane.active .other-options > div{
+		margin-top:10px;
+	}
+}
+@media(max-width:400px){
+	.pagination.selectdate.page-link.bg-light.p-0{
+		min-width: 130px;
+		padding:0 !important;
+	}
+}

@@ -1,0 +1,88 @@
+footer,
+.chat-bubble-section{
+    display:none;
+}
+body{
+    background:#f1f2f2!important;
+}
+.custom-control-input {
+    position: absolute !important;
+    z-index: -1;
+    opacity: 0;
+}
+.btn-success-new:hover {
+    color: #fff;
+    background-color: #38b385;
+    border-color: #35a87e;
+}
+.custom-radio .custom-control-label::before{
+    height: 16px;
+    width: 16px;
+    top: 2px;
+    left: 2px;
+}
+.create-ad-section label{
+    height:20px;
+    width:20px;
+}
+.custom-radio.checkmark .custom-control-input:checked ~ .custom-control-label::after{
+    top: 2px !important;
+    left: 2px !important;
+    height: 16px;
+    width: 16px;
+    background-size: 24px;
+    background-position: -4px -4px;
+}
+.btn-success-new{
+    box-shadow: 0 0 0 rgba(66,210,157,.5);
+    background:#42d29d !important;
+}
+.btn-danger-new{
+    box-shadow: 0 0 0 rgba(250,103,103,.5);
+    background:#fa6767;
+}
+.btn-danger-new:hover {
+    color: #fff;
+    background-color: #d55858;
+    border-color: #c85252;
+}
+.bg-success-new{
+    background-color: #42d29d !important;
+}
+.bg-danger-new{
+    background-color: #fa6767 !important;
+}
+.badge-success-lighten {
+    color: #42d29d;
+    background-color: rgba(66,210,157,.18);
+}
+.badge-warning-lighten {
+    color: #f9bc0d;
+    font-size:11px;
+    background-color: rgba(249,188,13,.18);
+}
+.badge-danger-lighten {
+    color: #fa6767;
+    font-size:11px;
+    background-color: rgba(250,103,103,.18);
+}
+.badge-info-lighten {
+    color: #44badc;
+    font-size:11px;
+    background-color: rgba(68,186,220,.18);
+}
+@media(max-width:767px){
+    .shop-bundel-section .action-area :is(a,button){
+        font-size:12px !important;
+        padding:.5rem !important;
+    }
+    .shop-bundel-section .action-area{
+        margin-top:20px;
+    }
+    .shop-bundel-section .card-body > .row .our-custom-select {
+        width:100% !important;
+    }
+    body .main_body_content #userPer > div{
+        overflow-x:auto;
+    }
+}

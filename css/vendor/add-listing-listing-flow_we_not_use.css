@@ -1,0 +1,12 @@
+footer,
+.chat-bubble-section{
+	display:none;
+}
+body{
+	background:#f1f2f2!important;
+}
+@media(min-width:1200px){
+	body{
+		overflow: hidden;
+	}
+}

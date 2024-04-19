@@ -1,0 +1,103 @@
+footer,
+.chat-bubble-section{
+	display:none;
+}
+body{
+	background:#f1f2f2!important;
+}
+.btn-success-new:hover {
+	color: #fff;
+	background-color: #38b385;
+	border-color: #35a87e;
+}
+.btn-success-new{
+	box-shadow: 0 0 0 rgba(66,210,157,.5);
+	background:#42d29d !important;
+}
+.btn-danger-new{
+	box-shadow: 0 0 0 rgba(250,103,103,.5);
+	background:#fa6767;
+}
+#customer-order-list_length,#customer-order-list_filter{
+	display:none;
+}
+.btn-danger-new:hover {
+	color: #fff;
+	background-color: #d55858;
+	border-color: #c85252;
+}
+.bg-success-new{
+	background-color: #42d29d !important;
+}
+.bg-danger-new{
+	background-color: #fa6767 !important;
+}
+.badge-success-lighten {
+	color: #42d29d;
+	background-color: rgba(66,210,157,.18);
+}
+.badge-warning-lighten {
+	color: #f9bc0d;
+	font-size:11px;
+	background-color: rgba(249,188,13,.18);
+}
+.badge-danger-lighten {
+	color: #fa6767;
+	font-size:11px;
+	background-color: rgba(250,103,103,.18);
+}
+.badge-info-lighten {
+	color: #44badc;
+	font-size:11px;
+	background-color: rgba(68,186,220,.18);
+}
+.usage_limits_checkbox .checkbox_btn_part .checkbox_input:checked + label .checkbox_btn::after {
+	content: '';
+	position: absolute;
+	top: 44%;
+	left: 50%;
+	transform: translate(-50%,-50%)rotate(-45deg);
+	height: 5px;
+	width: 9px;
+	display: inline-block;
+	border-bottom: 2px solid #fff;
+	border-left: 2px solid #fff;
+}
+.tab-content ul li{
+	font-size:14px !important;
+}
+#country-tax-list tbody tr:nth-child(even) th{
+	background:#f5f6f8;
+}
+.product-category .searchs__results {
+	top:105% !important;
+}
+#country-tax-list thead th{
+	width:1% !important;
+}
+@media(max-width:991px){
+	#country-tax-list thead th{
+		min-width:170px;
+	}
+}
+@media(min-width:768px) and (max-width:991px){
+	.card-body .reset-rate{
+		padding:1rem !important;
+	}
+}
+@media(max-width:767px){
+	.country-tax .taxType {
+		flex-direction: column;
+	}
+	.country-tax .taxType > div{
+		margin:10px 0 0 !important;
+	}
+	.card-body .tax-rule {
+		margin-top:30px;
+	}
+}
+@media(max-width:400px){
+	.card-body .reset-rate{
+		padding:1rem !important;
+	}
+}

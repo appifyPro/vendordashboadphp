@@ -1,0 +1,1674 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Stay</title>
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+		<!-- Plugins Css-->
+		<link rel="stylesheet" href="assets/plugins/bootstrap/dist/css/bootstrap.css">
+		<!-- Fontaswesome Css-->
+		<link rel="stylesheet" href="assets/fonts/fontawesome/css/all.css">
+		<link href="assets/fonts/ionicons/css/ionicons.min.css" rel="stylesheet">
+		<!-- Custom Css -->
+		<link rel="stylesheet" href="assets/css/tagsinput.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/media.css">
+		
+		
+	</head>
+	<body  class="w-100 w-pad-80 w-80-bg">
+	<!-- Header -->
+	<div class="bg-white p-3 py-sm-10rspn border-bottom text-center d-flex d-xl-none align-items-center justify-content-between mt-lg-0-rspn"> <!-- mt-xl-45-rspn -->
+		<a href="" class="float-left w-h-18 mb--7 mr-2">
+		  <img src="assets/img/back-arrow.svg" class="w-h-25px"> 		
+		</a>
+	
+		
+		<div class=" w-100 top-title mr-5">
+			Add New Listing
+		</div>
+	  
+		<div class="bg-secondary w-h-40px d-flex rounded-circle align-items-center justify-content-center">
+			<!--img src="assets/img/info.svg" class="w-h-25px"-->
+		</div>
+	  </div>
+	  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white border-bottom headerSection d-none d-xl-block" id="toggle-bg">
+		<div class="container-fluid mini-container px-15px justify-cntnt-unst-sm direction-rtl-sm">
+			<a class="navbar-brand mr-0 w-45px p-0" href="#">
+				<img src="assets/img/logo.svg" class="img-fluid">
+			</a>
+			<div class="ml-3 top-search"><input type="text"  class="form-control search-product" placeholder="Search StayToEnjoy"></div>
+			
+			<!--button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button-->
+			<div class="collapse direction-ltr-sm navbar-collapse d-flex justify-content-between" id="navbarsExampleDefault">
+				<ul class="navbar-nav desk-ul pt-2 pl-5 ml-2 headerMenu">
+					<li class="nav-item pr-5 pl-5">
+						<a class=" nav-link position-relative menu-icon rounded-circle w-h-35px d-flex align-items-center justify-content-center header-profilepic" href="javascript:void(0)">
+							<img src="assets/img/header-icon/pic.jpg" class="w-h-35px rounded-circle"> 
+						</a>
+					</li>
+					<li class="nav-item position-relative pr-5" id="request-click" >
+						<a class="nav-link position-relative menu-icon bg-secondary rounded-circle w-h-30px d-flex align-items-center justify-content-center" href="javascript:void(0)" data-toggle="tooltip" title="Home">
+							<img src="assets/img/header-icon/home.svg" class="w-h-30px"> <span class="notify-circle">5</span>
+						</a>
+					</li>
+					<li class="nav-item dropdown hide-caret">
+						<div class="white-bx-cst-shdow profile-setting border-0 dropdown-menu dropdown-menu-p request-tab-big"> <!--  -->
+						<div class="font-14 px-3 border-bottom pb-2">Friend Requests
+							<a href="javascript:void(0)" class="float-right pl-3 text-theme-blue">Settings</a>
+							<a href="javascript:void(0)" class="float-right">Find Friends</a>
+						</div>
+						<div class="p-2 max-h-320 overflow-auto scroll-design">
+							<div class="d-flex border-r-10 shadow-sm border font-14 border-bottom p-2 my-1 hover-grey">
+								<div class="notif-box-one">
+									<div class="profile-pic">
+										<img src="assets/img/profile-img.jpg" class="w-100">
+									</div>
+								</div>
+								<div class="notif-box-two px-2">
+									<div class="w-100">
+										<p class="text-dark mb-0 d-inline-block font-weight-bold pt-2">Marie Thomsen, Designer</p>
+									</div>
+									<div class="w-100 mt--5px">
+										<span class="text-secondary font-12">Hamburg, Germany</span>
+										<img src="assets/img/noun_dot.svg">
+										<span class="text-secondary font-12">22 Mutual Friends</span>
+									</div>
+								</div>
+								<div class="notif-box-three ml-auto pr-2">
+									<input type="button" class="mt-2 font-12 shadow py-1 px-3 btn btn-primary bg-primary btn-b" value="Accept">
+									<input type="button" class="ml-2 mt-2 font-12 shadow py-1 px-3 btn btn-primary border btn-b text-dark bg-transparent" value="Decline">
+								</div>
+							</div>
+							<div class="d-flex border-r-10 shadow-sm border font-14 border-bottom p-2 my-1 hover-grey">
+								<div class="notif-box-one">
+									<div class="profile-pic">
+										<img src="assets/img/profile-img.jpg" class="w-100">
+									</div>
+								</div>
+								<div class="notif-box-two px-2">
+									<div class="w-100">
+										<p class="text-dark mb-0 d-inline-block font-weight-bold pt-2">Marie Thomsen, Designer</p>
+									</div>
+									<div class="w-100 mt--5px">
+										<span class="text-secondary font-12">Hamburg, Germany</span>
+										<img src="assets/img/noun_dot.svg">
+										<span class="text-secondary font-12">22 Mutual Friends</span>
+									</div>
+								</div>
+								<div class="notif-box-three ml-auto pr-2">
+									<input type="button" class="mt-2 font-12 shadow py-1 px-3 btn btn-primary btn-b bg-primary" value="Accept">
+									<input type="button" class="ml-2 mt-2 font-12 shadow py-1 px-3 btn btn-primary btn-b border text-dark bg-transparent" value="Decline">
+								</div>
+							</div>
+							<div class="text-dark font-14 mt-3 mb-2 px-2">People You May Know</div>
+							<div class="d-flex border-r-10 shadow-sm border font-14 border-bottom p-2 my-1 hover-grey">
+								<div class="notif-box-one">
+									<div class="profile-pic">
+										<img src="assets/img/profile-img.jpg" class="w-100">
+									</div>
+								</div> 
+								<div class="notif-box-two px-2">
+									<div class="w-100">
+										<p class="text-dark mb-0 d-inline-block">Marie Thomsen, Designer</p>
+									</div>
+									<div class="w-100">
+										<span class="text-secondary font-12">Hamburg,</span>
+										<span class="text-secondary pl-2 font-12">22 Mutual Friends</span>
+									</div>
+								</div>
+								<div class="notif-box-three ml-auto pr-2">
+									<input type="button" class="mt-2 font-12 shadow py-1 px-3 btn btn-primary btn-b bg-primary" value="Accept">
+									<input type="button" class="ml-2 mt-2 font-12 shadow py-1 px-3 btn btn-primary btn-b border text-dark bg-transparent" value="Decline">
+								</div>
+							</div>
+							<div class="d-flex border-r-10 shadow-sm border font-14 border-bottom p-2 my-1 hover-grey">
+								<div class="notif-box-one">
+									<div class="profile-pic">
+										<img src="assets/img/profile-img.jpg" class="w-100">
+									</div>
+								</div>
+								<div class="notif-box-two px-2">
+									<div class="w-100">
+										<p class="text-dark mb-0 d-inline-block">Marie Thomsen, Designer</p>
+									</div>
+									<div class="w-100">
+										<span class="text-secondary font-12">Hamburg,</span>
+										<span class="text-secondary pl-2 font-12">22 Mutual Friends</span>
+									</div>
+								</div>
+								<div class="notif-box-three ml-auto pr-2">
+									<input type="button" class="mt-2 font-12 shadow py-1 px-3 btn btn-primary btn-b bg-primary" value="Accept">
+									<input type="button" class="ml-2 mt-2 font-12 shadow py-1 px-3 btn btn-primary btn-b border text-dark bg-transparent" value="Decline">
+								</div>
+							</div>
+						</div>
+						
+						<div class="font-14 px-3 border-top pt-2 text-center">
+							<a href="javascript:void(0)" class="text-theme-blue">See All</a>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item pr-5">
+					<a class="nav-link position-relative menu-icon bg-secondary rounded-circle w-h-30px d-flex align-items-center justify-content-center" href="#" data-toggle="tooltip" title="Groups">
+						<img src="assets/img/header-icon/group.svg" class="w-h-30px"> <span class="notify-circle">3</span>
+					</a>
+				</li>
+				<li class="nav-item pr-5">
+					<a class="nav-link position-relative menu-icon bg-secondary rounded-circle w-h-30px d-flex align-items-center justify-content-center" href="javascript:void(0)" data-toggle="tooltip" title="Newsfeed">
+						<img src="assets/img/header-icon/shop.svg" class="w-h-30px"> <span class="notify-circle">8</span>
+					</a>
+				</li>
+				<li class="nav-item pr-5">
+					<a class="nav-link position-relative menu-icon bg-secondary rounded-circle w-h-30px d-flex align-items-center justify-content-center" href="#" data-toggle="tooltip" title="Marketplace">
+						<img src="assets/img/header-icon/shopping-bag.svg" class="w-h-30px"> <span class="notify-circle">9</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link position-relative menu-icon bg-secondary rounded-circle w-h-30px d-flex align-items-center justify-content-center" href="javascript:void(0)" data-toggle="tooltip" title="Calendar">
+						<img src="assets/img/header-icon/monthly-calendar.svg" class="w-h-30px"> <span class="notify-circle">9</span>
+					</a>
+				</li>
+		
+		</ul>
+
+		<ul class="navbar-nav desk-ul pt-2 headerMenu">
+		
+	
+		<li class="nav-item pr-3 ml-2" id="notif-click">
+			<a class="nav-link position-relative menu-icon bg-secondary rounded-circle w-h-30px d-flex align-items-center justify-content-center" href="javascript:void(0)" data-toggle="tooltip" title="Notifications">
+				<img src="assets/img/header-icon/notification-bell.svg" class="w-h-30px"><span class="notify-circle">8</span>
+			</a>
+		</li>
+		<li class="nav-item dropdown hide-caret">
+			<div class="white-bx-cst-shdow profile-setting border-0 dropdown-menu dropdown-menu-p notif-tab-big"> <!--  -->
+			<div class="font-14 px-3 border-bottom pb-2">Notifications
+				<a href="javascript:void(0)" class="float-right pl-3 text-theme-blue">Settings</a>
+				<a href="javascript:void(0)" class="float-right">Mark All as Read</a>
+			</div>
+			<ul class="nav nav-tabs px-2" id="myTab" role="tablist">
+				<li class="nav-item mx-2">
+					<a class="nav-link px-0 h-38 font-12 active bg-blue-light" data-toggle="tab" href="#all-notif" role="tab" aria-controls="home" aria-selected="true">All</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a class="nav-link px-0 h-38 font-12" data-toggle="tab" href="#discount-notif" role="tab" aria-controls="profile" aria-selected="false">Discount</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a class="nav-link px-0 h-38 font-12" data-toggle="tab" href="#voucher-notif" role="tab" aria-controls="contact" aria-selected="false">Voucher</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a class="nav-link px-0 h-38 font-12" data-toggle="tab" href="#events-notif" role="tab" aria-controls="contact" aria-selected="false">Events</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a class="nav-link px-0 h-38 font-12" data-toggle="tab" href="#bookings-notif" role="tab" aria-controls="contact" aria-selected="false">Bookings</a>
+				</li>
+			</ul>
+			<div class="tab-content max-h-320 overflow-auto scroll-design" id="myTabContent">
+				<div class="tab-pane fade show active p-2" id="all-notif" role="tabpanel">
+					<div class="d-flex border-r-10 shadow-sm border font-14 border-bottom p-2 my-1 hover-grey" href="javascript:void(0)">
+						<div class="notif-box-one">
+							<div class="profile-pic">
+								<img src="assets/img/profile-img.jpg" class="w-100">
+							</div>
+						</div>
+						<div class="notif-box-two px-2">
+							<div class="w-100">
+								<p class="text-dark mb-0 d-inline-block font-weight-bold pt-2">Marie Thomsen, Designer</p>
+								<img src="assets/img/noun_dot.svg">
+								<span class="text-secondary font-12">San Fransisco</span>
+							</div>
+							<div class="w-100 mt--5px">
+								<a href="javascript:void(0)"><img src="assets/img/notif-thumsup.svg"></a>
+								<span class="text-secondary font-12">liked your picture,</span>
+								<span class="text-secondary font-12">6 Min ago</span>
+							</div>
+						</div>
+						<div class="notif-box-three ml-auto pr-2">
+							<div class="dropdown">
+								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="fa fa-ellipsis-h"></i>
+								</a>
+								<div class="dropdown-menu white-bx-cst-shdow font-14" style="left:-145px;">
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mute</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mark as read</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Remove</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Turn off Notifications</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex border-r-10 shadow-sm border font-14 border-bottom p-2 my-1 hover-grey" href="javascript:void(0)">
+						<div class="notif-box-one">
+							<div class="profile-pic">
+								<img src="assets/img/profile-img.jpg" class="w-100">
+							</div>
+						</div>
+						<div class="notif-box-two px-2">
+							<div class="w-100">
+								<p class="text-dark mb-0 d-inline-block font-weight-bold pt-2">Marie Thomsen, Designer</p>
+								<img src="assets/img/noun_dot.svg">
+								<span class="text-secondary font-12">San Fransisco</span>
+							</div>
+							<div class="w-100 mt--5px">
+								<a href="javascript:void(0)"><img src="assets/img/notif-thumsup.svg"></a>
+								<span class="text-secondary font-12">liked your picture,</span>
+								<span class="text-secondary font-12">6 Min ago</span>
+							</div>
+						</div>
+						<div class="notif-box-three ml-auto pr-2">
+							<div class="dropdown">
+								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="fa fa-ellipsis-h"></i>
+								</a>
+								<div class="dropdown-menu white-bx-cst-shdow font-14" style="left:-145px;">
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mute</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mark as read</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Remove</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Turn off Notifications</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="text-theme-blue font-14 mt-3 mb-2 px-2">Earlier</div>
+					<div class="d-flex border-r-10 shadow-sm border font-14 border-bottom p-2 my-1 hover-grey" href="javascript:void(0)">
+						<div class="notif-box-one">
+							<div class="profile-pic">
+								<img src="assets/img/profile-img.jpg" class="w-100">
+							</div>
+						</div>
+						<div class="notif-box-two px-2">
+							<div class="w-100">
+								<p class="text-dark mb-0 d-inline-block font-weight-bold pt-2">Marie Thomsen, Designer</p>
+								<img src="assets/img/noun_dot.svg">
+								<span class="text-secondary font-12">San Fransisco</span>
+							</div>
+							<div class="w-100 mt--5px">
+								<a href="javascript:void(0)"><img src="assets/img/notif-thumsup.svg"></a>
+								<span class="text-secondary font-12">liked your picture,</span>
+								<span class="text-secondary font-12">6 Min ago</span>
+							</div>
+						</div>
+						<div class="notif-box-three ml-auto pr-2">
+							<div class="dropdown">
+								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="fa fa-ellipsis-h"></i>
+								</a>
+								<div class="dropdown-menu white-bx-cst-shdow font-14" style="left:-145px;">
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mute</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mark as read</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Remove</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Turn off Notifications</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex border-r-10 shadow-sm border font-14 border-bottom p-2 my-1 hover-grey" href="javascript:void(0)">
+						<div class="notif-box-one">
+							<div class="profile-pic">
+								<img src="assets/img/profile-img.jpg" class="w-100">
+							</div>
+						</div>
+						<div class="notif-box-two px-2">
+							<div class="w-100">
+								<p class="text-dark mb-0 d-inline-block font-weight-bold pt-2">Marie Thomsen, Designer</p>
+								<img src="assets/img/noun_dot.svg">
+								<span class="text-secondary font-12">San Fransisco</span>
+							</div>
+							<div class="w-100 mt--5px">
+								<a href="javascript:void(0)"><img src="assets/img/notif-thumsup.svg"></a>
+								<span class="text-secondary font-12">liked your picture,</span>
+								<span class="text-secondary font-12">6 Min ago</span>
+							</div>
+						</div>
+						<div class="notif-box-three ml-auto pr-2">
+							<div class="dropdown">
+								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="fa fa-ellipsis-h"></i>
+								</a>
+								<div class="dropdown-menu white-bx-cst-shdow font-14" style="left:-145px;">
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mute</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mark as read</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Remove</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Turn off Notifications</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="text-theme-blue font-14 mt-3 mb-2 px-2">Earlier</div>
+					<div class="d-flex border-r-10 shadow-sm border font-14 border-bottom p-2 my-1 hover-grey" href="javascript:void(0)">
+						<div class="notif-box-one">
+							<div class="profile-pic">
+								<img src="assets/img/profile-img.jpg" class="w-100">
+							</div>
+						</div>
+						<div class="notif-box-two px-2">
+							<div class="w-100">
+								<p class="text-dark mb-0 d-inline-block font-weight-bold pt-2">Marie Thomsen, Designer</p>
+								<img src="assets/img/noun_dot.svg">
+								<span class="text-secondary font-12">San Fransisco</span>
+							</div>
+							<div class="w-100 mt--5px">
+								<a href="javascript:void(0)">
+									<img src="assets/img/notif-thumsup.svg">
+								</a>
+								<span class="text-secondary font-12">liked your picture,</span>
+								<span class="text-secondary font-12">6 Min ago</span>
+							</div>
+						</div>
+						<div class="notif-box-three ml-auto pr-2">
+							<div class="dropdown">
+								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="fa fa-ellipsis-h"></i>
+								</a>
+								<div class="dropdown-menu white-bx-cst-shdow font-14" style="left:-145px;">
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mute</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mark as read</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Remove</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Turn off Notifications</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex border-r-10 shadow-sm border font-14 border-bottom p-2 my-1 hover-grey" href="javascript:void(0)">
+						<div class="notif-box-one">
+							<div class="profile-pic">
+								<img src="assets/img/profile-img.jpg" class="w-100">
+							</div>
+						</div>
+						<div class="notif-box-two px-2">
+							<div class="w-100">
+								<p class="text-dark mb-0 d-inline-block font-weight-bold pt-2">Marie Thomsen, Designer</p>
+								<img src="assets/img/noun_dot.svg">
+								<span class="text-secondary font-12">San Fransisco</span>
+							</div>
+							<div class="w-100 mt--5px">
+								<a href="javascript:void(0)"><img src="assets/img/notif-thumsup.svg"></a>
+								<span class="text-secondary font-12">liked your picture,</span>
+								<span class="text-secondary font-12">6 Min ago</span>
+							</div>
+						</div>
+						<div class="notif-box-three ml-auto pr-2">
+							<div class="dropdown">
+								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="fa fa-ellipsis-h"></i>
+								</a>
+								<div class="dropdown-menu white-bx-cst-shdow font-14" style="left:-145px;">
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mute</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mark as read</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Remove</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Turn off Notifications</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="text-theme-blue font-14 mt-3 mb-2 px-2">Earlier</div>
+					<div class="d-flex border-r-10 shadow-sm border font-14 border-bottom p-2 my-1 hover-grey" href="javascript:void(0)">
+						<div class="notif-box-one">
+							<div class="profile-pic">
+								<img src="assets/img/profile-img.jpg" class="w-100">
+							</div>
+						</div>
+						<div class="notif-box-two px-2">
+							<div class="w-100">
+								<p class="text-dark mb-0 d-inline-block font-weight-bold pt-2">Marie Thomsen, Designer</p>
+								<img src="assets/img/noun_dot.svg">
+								<span class="text-secondary font-12">San Fransisco</span>
+							</div>
+							<div class="w-100 mt--5px">
+								<a href="javascript:void(0)">
+									<img src="assets/img/notif-thumsup.svg">
+								</a>
+								<span class="text-secondary font-12">liked your picture,</span>
+								<span class="text-secondary font-12">6 Min ago</span>
+							</div>
+						</div>
+						<div class="notif-box-three ml-auto pr-2">
+							<div class="dropdown">
+								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="fa fa-ellipsis-h"></i>
+								</a>
+								<div class="dropdown-menu white-bx-cst-shdow font-14" style="left:-145px;">
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mute</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mark as read</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Remove</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Turn off Notifications</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex border-r-10 shadow-sm border font-14 border-bottom p-2 my-1 hover-grey" href="javascript:void(0)">
+						<div class="notif-box-one">
+							<div class="profile-pic">
+								<img src="assets/img/profile-img.jpg" class="w-100">
+							</div>
+						</div>
+						<div class="notif-box-two px-2">
+							<div class="w-100">
+								<p class="text-dark mb-0 d-inline-block font-weight-bold pt-2">Marie Thomsen, Designer</p>
+								<img src="assets/img/noun_dot.svg">
+								<span class="text-secondary font-12">San Fransisco</span>
+							</div>
+							<div class="w-100 mt--5px">
+								<a href="javascript:void(0)">
+									<img src="assets/img/notif-thumsup.svg">
+								</a>
+								<span class="text-secondary font-12">liked your picture,</span>
+								<span class="text-secondary font-12">6 Min ago</span>
+							</div>
+						</div>
+						<div class="notif-box-three ml-auto pr-2">
+							<div class="dropdown">
+								<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="fa fa-ellipsis-h"></i>
+								</a>
+								<div class="dropdown-menu white-bx-cst-shdow font-14" style="left:-145px;">
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mute</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Mark as read</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Remove</a>
+									<a class="dropdown-item border-trans-hover hover-grey" href="javascript:void(0)">Turn off Notifications</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="text-theme-blue font-14 mt-3 mb-2 px-2">Earlier</div>
+				</div>
+				<div class="tab-pane fade p-2 font-12" id="discount-notif" role="tabpanel">Discount</div>
+				<div class="tab-pane fade p-2 font-12" id="voucher-notif" role="tabpanel">Voucher</div>
+				<div class="tab-pane fade p-2 font-12" id="events-notif" role="tabpanel">Events</div>
+				<div class="tab-pane fade p-2 font-12" id="bookings-notif" role="tabpanel">Bookings</div>
+			</div>
+			
+			<div class="font-14 px-3 border-top pt-2 text-center">
+				<a href="javascript:void(0)" class="text-theme-blue">See All</a>
+			</div>
+		</div>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link position-relative menu-icon bg-secondary rounded-circle w-h-30px d-flex align-items-center justify-content-center" href="javascript:void(0)" data-toggle="tooltip" title="Friend Request">
+			<img src="assets/img/header-icon/friend.svg" class="w-h-30px"> <span class="notify-circle">9</span>
+		</a>
+	</li>
+</ul>
+		<ul class="navbar-nav align-self-end desk-ul pt-2 rightnav">
+			<li class="nav-item pl-2 pr-2">
+				<a class="nav-link position-relative menu-icon pt-1" href="helpcenter.php">
+					<img src="assets/img/header-icon/info.svg" class="w-h-35px">
+				</a>
+			</li>
+			<li class="nav-item pl-2 pr-1 position-relative dropdown hide-caret">
+				<a class="nav-link position-relative menu-icon dropdown-toggle pt-4px" href="javascript:void(0)" role="button" data-toggle="dropdown"> <img src="assets/img/header-icon/menu2.svg" class="w-h-35px"> </a>
+				<div class="white-bx-cst-shdow border-0 dropdown-menu dropdown-menu-p appmenu-tab-big py-0 scroll-design">
+					<div class="d-flex align-items-center">
+						<div class="w-100 text-left pl-3 pt-2">
+							<h5 class="d-inline-block px-2 mt-3 mb-2 text-dark pt-2 pb-1">Explore</h5>
+						</div>
+					</div>
+					
+					<div class="d-flex border-top">
+						<div class="py-3 text-center hover-shadow border-right w-33">
+							<div class="w-h-50 m-auto">
+								<img src="assets/img/app-menu-my-business.svg" class="w-100 h-100">
+							</div>
+							<h6 class="font-14 pt-2 mb-0 text-dark text-center">Restaurants</h6>
+						</div>
+						<div class="text-center hover-shadow border-right w-33">
+							<a href="food-timeline.php" class="clearfix d-block py-3">
+								<div class="w-h-50 m-auto">
+									<img src="assets/img/app-menu-my-business.svg" class="w-100 h-100">
+								</div>
+								<h6 class="font-14 pt-2 mb-0 text-dark text-center">Food Delivery</h6>
+							</a>
+						</div>
+						<div class="py-3 text-center hover-shadow w-33">
+							<div class="w-h-50 m-auto">
+								<img src="assets/img/app-menu-my-business.svg" class="w-100 h-100">
+							</div>
+							<h6 class="font-14 pt-2 mb-0 text-dark text-center">Hotels</h6>
+						</div>
+					</div>
+					<div class="d-flex border-top">
+						<div class="text-center hover-shadow border-right w-33">
+							<a href="#" class="clearfix d-block py-3">
+								<div class="w-h-50 m-auto">
+									<img src="assets/img/app-menu-calender.svg" class="w-100 h-100">
+								</div>
+								<h6 class="font-14 pt-2 mb-0 text-dark text-center">Accomodations</h6>
+							</a>
+						</div>
+						<div class="text-center hover-shadow border-right w-33">
+							<a href="#" class="clearfix d-block py-3">
+								<div class="w-h-50 m-auto">
+									<img src="assets/img/app-menu-shipping.svg" class="w-100 h-100">
+								</div>
+								<h6 class="font-14 pt-2 mb-0 text-dark text-center">Car Sharing</h6>
+							</a>
+						</div>
+						<div class="py-3 text-center hover-shadow w-33">
+							<div class="w-h-50 m-auto">
+								<img src="assets/img/app-menu-my-business.svg" class="w-100 h-100">
+							</div>
+							<h6 class="font-14 pt-2 mb-0 text-dark text-center">Tour Guides</h6>
+						</div>
+					</div>
+					<div class="d-flex border-top">
+						<div class="text-center hover-shadow border-right w-33">
+							<a href="#" class="clearfix d-block py-3">
+								<div class="w-h-50 m-auto">
+									<img src="assets/img/app-menu-my-business.svg" class="w-100 h-100">
+								</div>
+								<h6 class="font-14 pt-2 mb-0 text-dark text-center">Beauty &amp; Spa</h6>
+							</a>
+						</div>
+						<div class="py-3 text-center hover-shadow border-right w-33">
+							<div class="w-h-50 m-auto">
+								<img src="assets/img/app-menu-my-business.svg" class="w-100 h-100">
+							</div>
+							<h6 class="font-14 pt-2 mb-0 text-dark text-center">Hairdresser</h6>
+						</div>
+						<div class="py-3 text-center hover-shadow w-33">
+							<div class="w-h-50 m-auto">
+								<img src="assets/img/app-menu-calender.svg" class="w-100 h-100">
+							</div>
+							<h6 class="font-14 pt-2 mb-0 text-dark text-center">Travel</h6>
+						</div>
+					</div>
+					<div class="d-flex border-top">
+						<div class="py-3 text-center hover-shadow border-right w-33">
+							<div class="w-h-50 m-auto">
+								<img src="assets/img/app-menu-my-business.svg" class="w-100 h-100">
+							</div>
+							<h6 class="font-14 pt-2 mb-0 text-dark text-center">Shops</h6>
+						</div>
+						<div class="py-3 text-center hover-shadow border-right w-33">
+							<div class="w-h-50 m-auto">
+								<img src="assets/img/app-menu-my-business.svg" class="w-100 h-100">
+							</div>
+							<h6 class="font-14 pt-2 mb-0 text-dark text-center">Shipping</h6>
+						</div>
+						<div class="py-3 text-center hover-shadow w-33">
+							<div class="w-h-50 m-auto">
+								<img src="assets/img/app-menu-calender.svg" class="w-100 h-100">
+							</div>
+							<h6 class="font-14 pt-2 mb-0 text-dark text-center">Voucher</h6>
+						</div>
+					</div>
+					<div class="font-14 px-3 border-top py-2 text-center">
+						<a href="javascript:void(0)" class="text-theme-blue">More</a>
+					</div>
+				</div>
+			</li>
+			<li class="nav-item pl-1 pr-2 dropdown">
+				<a class="nav-link position-relative menu-icon d-flex align-items-center pt-4px dropdown-toggle " href="javascript:void(0)" id="navbarDropdown" role="button" data-toggle="dropdown">
+					<img src="assets/img/header-icon/dropdown.svg" class="w-h-35px" >
+				</a>
+				<div class="white-bx-cst-shdow border-0 dropdown-menu dropdown-menu-p profile-tab-big">
+					<a class="dropdown-item font-14 border-bottom py-2 hover-theme" href="javascript:void(0)">
+						<img src="assets/img/support.svg" class="w-h-25px"/>  Help and Support <i class="fa fa-angle-right float-right pt-1"></i>
+					</a>
+					<a class="dropdown-item font-14 border-bottom py-2 hover-theme" href="javascript:void(0)">
+						<img src="assets/img/edit.svg" class="w-h-25px"/>	 Edit Profile <i class="fa fa-angle-right float-right pt-1"></i>
+					</a>
+					<a class="dropdown-item font-14 border-bottom py-2 hover-theme" href="account-settings.php">
+						<img src="assets/img/settings.svg" class="w-h-25px"/> Account Settings <i class="fa fa-angle-right float-right pt-1"></i>
+					</a>
+					<a class="dropdown-item font-14 border-bottom py-2 hover-theme" href="javascript:void(0)">
+						<img src="assets/img/password.svg" class="w-h-25px"/> Change Password <i class="fa fa-angle-right float-right pt-1"></i>
+					</a>
+					<a class="dropdown-item font-14 border-bottom py-2 hover-theme" href="javascript:void(0)">
+						  <img src="assets/img/page.svg" class="w-h-25px"/>	 List Offers <i class="fa fa-angle-right float-right pt-1"></i>
+					</a>
+					<a class="dropdown-item font-14 py-2 hover-red" href="javascript:void(0)">
+						<img src="assets/img/logout.svg" class="w-h-25px"/> Logout <i class="fa fa-angle-right float-right pt-1"></i>
+					</a>
+				</div>
+			</li>
+		</ul>
+		</div>
+		</div>
+	</nav>
+	<!-- / Header -->
+
+
+	<!-- Content -->
+	<main class="body_content">
+		<section class="container-fluid h-100">
+			<div class="row h-100">
+				<div class="listing_section homelistingbox">
+					<div class="listing_content h-100">
+						<div class="new_listing_part d-none d-xl-block">
+							<a href="#">Add new Listing</a>
+						</div>
+
+						<div class="listing_content_part" style="padding-bottom: 80px;">							
+							<div class="d-flex flex-wrap">
+								<div class="listing_banner_part">
+									<div class="listing_banner_header">
+										<div class="w-100 title_box">
+											<h1 class="title">Einfach mehr Geld fur lhr Handy*</h1>
+										
+										</div>
+										
+										<div class="sub_title_box">
+											<p class="sub_title">Jetzt rausfinden, was lhr Handy wert ist und gleich einstellen!</p>
+										
+										</div>	
+									</div>
+									<div class="home-banner" >
+									</div>
+									
+								</div>
+
+								<div class="wizard">
+							        <div class="wizard-body">
+										
+										
+												<div class=" d-block d-xl-none">
+													<button id="wizard-prev1" style="display:none" type="button" class="btn btn-irv btn-irv-default mobileback">
+														
+														  Back
+													</button>
+												</div>
+											
+									
+							            <div class="step initial active">
+											<div class="listing_banner_right_part">
+												<div class="choose_brand_part">
+													<div class="choose_brand_header d-flex flex-wrap align-items-center">
+														<h3 class="title">Choose Brand</h3>
+
+														<div class="progress_bar_part">
+															<div class="d-flex align-items-center">
+																<div class="progress">
+																  	<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+																</div>
+																<span class="percent d-none d-xl-block">100%</span>
+																
+															</div>	
+														</div>
+														<span class="step-txt d-block d-xl-none text-center" >Step 1 - 8</span>
+													</div>
+
+													<div class="brand_btn_part">
+														<ul class="d-flex flex-wrap justify-content-between" id="dam_return">
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">Apple</a>
+															</li>
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">Samsung</a>
+															</li>
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">LG</a>
+															</li>
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">Google</a>
+															</li>
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">Motorola</a>
+															</li>
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">BlackBerry</a>
+															</li>
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">BlackBerry</a>
+															</li>
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">OnePlus</a>
+															</li>
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">HTC</a>
+															</li>
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">Apple</a>
+															</li>
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">Samsung</a>
+															</li>
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">LG</a>
+															</li>
+															<li>
+																<a href="#selecbox1" class="brand_btn wizard-next">Google</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+							            </div>
+
+							            <div class="step">
+											<div class="listing_banner_right_part">
+												<div class="choose_brand_part">
+													<div class="choose_brand_header d-flex flex-wrap align-items-center">
+														<h3 class="title">Choose Modal</h3>
+
+														<div class="progress_bar_part">
+															<div class="d-flex align-items-center">
+																<div class="progress">
+																  	<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+																</div>
+																<span class="percent d-none d-xl-block">100%</span>
+															</div>	
+														</div>
+														<span class="step-txt d-block d-xl-none text-center" >Step 2 - 8</span>
+													</div>
+
+													<div class="brand_btn_part">
+														<ul class="d-flex flex-wrap justify-content-between" id="dam_return1">
+															<li>
+																<a href="#selecbox2" class="brand_btn wizard-next">iPhone 5</a>
+															</li>
+															<li>
+																<a href="#selecbox2" class="brand_btn wizard-next">iPhone 5s</a>
+															</li>
+															<li>
+																<a href="#selecbox2" class="brand_btn wizard-next">iPhone 6</a>
+															</li>
+															<li>
+																<a href="#selecbox2" class="brand_btn wizard-next">iPhone 6s</a>
+															</li>
+															<li>
+																<a href="#selecbox2" class="brand_btn wizard-next">iPhone 6 Plus</a>
+															</li>
+															<li>
+																<a href="#selecbox2" class="brand_btn wizard-next">iPhone 7</a>
+															</li>
+															<li>
+																<a href="#selecbox2" class="brand_btn wizard-next">iPhone 8</a>
+															</li>
+															<li>
+																<a href="#selecbox2" class="brand_btn wizard-next">iPhone X</a>
+															</li>
+															<li>
+																<a href="#selecbox2" class="brand_btn wizard-next">iPhone Xs</a>
+															</li>
+															
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+
+							            <div class="step">
+											<div class="listing_banner_right_part">
+												<div class="choose_brand_part">
+													<div class="choose_brand_header d-flex flex-wrap align-items-center">
+														<h3 class="title">Choose Mobile Operator</h3>
+
+														<div class="progress_bar_part">
+															<div class="d-flex align-items-center">
+																<div class="progress">
+																  	<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+																</div>
+																<span class="percent d-none d-xl-block">100%</span>
+															</div>	
+														</div>
+														<span class="step-txt d-block d-xl-none text-center" >Step 3 - 8</span>
+													</div>
+
+													<div class="brand_btn_part">
+														<ul class="d-flex flex-wrap justify-content-between" id="dam_return2">
+															<li>
+																<a href="#selecbox3" class="brand_btn wizard-next">o2</a>
+															</li>
+															<li>
+																<a href="#selecbox3" class="brand_btn wizard-next">T-Mobile</a>
+															</li>
+															<li>
+																<a href="#selecbox3" class="brand_btn wizard-next">Ohne Simlock</a>
+															</li>
+															<li>
+																<a href="#selecbox3" class="brand_btn wizard-next">Vodafone</a>
+															</li>
+															
+														</ul>
+													</div>
+												</div>
+											</div>
+							            </div>
+
+							            <div class="step">
+											<div class="listing_banner_right_part">
+												<div class="choose_brand_part">
+													<div class="choose_brand_header d-flex flex-wrap align-items-center">
+														<h3 class="title">Choose Storage Capacity</h3>
+
+														<div class="progress_bar_part">
+															<div class="d-flex align-items-center">
+																<div class="progress">
+																  	<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+																</div>
+																<span class="percent d-none d-xl-block">100%</span>
+															</div>	
+														</div>
+														<span class="step-txt d-block d-xl-none text-center" >Step 4 - 8</span>
+													</div>
+
+													<div class="brand_btn_part">
+														<ul class="d-flex flex-wrap justify-content-between" id="dam_return3">
+															<li>
+																<a href="#selecbox4" class="brand_btn wizard-next">4GB</a>
+															</li>
+															<li>
+																<a href="#selecbox4" class="brand_btn wizard-next">8GB</a>
+															</li>
+															<li>
+																<a href="#selecbox4" class="brand_btn wizard-next">16GB</a>
+															</li>
+															<li>
+																<a href="#selecbox4" class="brand_btn wizard-next">32GB</a>
+															</li>
+															<li>
+																<a href="#selecbox4" class="brand_btn wizard-next">64GB</a>
+															</li>
+															<li>
+																<a href="#selecbox4" class="brand_btn wizard-next">128GB</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+							            </div>
+
+							            <div class="step">
+											<div class="listing_banner_right_part">
+												<div class="choose_brand_part">
+													<div class="choose_brand_header d-flex flex-wrap align-items-center">
+														<h3 class="title">Choose Color</h3>
+
+														<div class="progress_bar_part">
+															<div class="d-flex align-items-center">
+																<div class="progress">
+																  	<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+																</div>
+																<span class="percent d-none d-xl-block">100%</span>
+															</div>	
+														</div>
+														<span class="step-txt d-block d-xl-none text-center" >Step 5 - 8</span>
+													</div>
+
+													<div class="brand_btn_part">
+														<ul class="d-flex flex-wrap justify-content-between" id="dam_return4">
+															<li>
+																<a href="#selecbox5" class="brand_btn wizard-next">Silver</a>
+															</li>
+															<li>
+																<a href="#selecbox5" class="brand_btn wizard-next">Black</a>
+															</li>
+															<li>
+																<a href="#selecbox5" class="brand_btn wizard-next">White</a>
+															</li>
+															<li>
+																<a href="#selecbox5" class="brand_btn wizard-next">Red</a>
+															</li>
+															
+														</ul>
+													</div>
+												</div>
+											</div>
+							            </div>
+
+							            <div class="step">
+											<div class="listing_banner_right_part">
+												<div class="choose_brand_part">
+													<div class="choose_brand_header d-flex flex-wrap align-items-center">
+														<h3 class="title">Select item condition</h3>
+
+														<div class="progress_bar_part">
+															<div class="d-flex align-items-center">
+																<div class="progress">
+																  	<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+																</div>
+																<span class="percent d-none d-xl-block">100%</span>
+															</div>	
+														</div>
+														<span class="step-txt d-block d-xl-none text-center" >Step 6 - 8</span>
+													</div>
+
+													<div class="brand_btn_part">
+														<ul class="d-flex flex-wrap justify-content-between" id="dam_return5">
+															<li>
+																<a href="#selecbox6" class="brand_btn wizard-next">Overhauled by the manufacturer
+																</a>
+															</li>
+															<li>
+																<a href="#selecbox6" class="brand_btn wizard-next">Used</a>
+															</li>
+															<li>
+																<a href="#selecbox6" class="brand_btn wizard-next">As replacement / defective
+																	</a>
+															</li>
+															<li>
+																<a href="#selecbox6" class="brand_btn wizard-next">New: other (see item description)
+																</a>
+															</li>
+															<li>
+																<a href="#selecbox6" class="brand_btn">Refurbished by the Seller
+
+																	
+																	</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+							            </div>
+
+							            <div class="step">
+											<div class="listing_banner_right_part">
+												<div class="choose_brand_part">
+													<div class="choose_brand_header d-flex flex-wrap align-items-center">
+														<h3 class="title">External condition</h3>
+
+														<div class="progress_bar_part">
+															<div class="d-flex align-items-center">
+																<div class="progress">
+																  	<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+																</div>
+																<span class="percent d-none d-xl-block">100%</span>
+															</div>	
+														</div>
+														<span class="step-txt d-block d-xl-none text-center" >Step 7 - 8</span>
+													</div>
+
+													<div class="brand_btn_part">
+														<ul class="d-flex flex-wrap justify-content-between" id="dam_return6">
+															<li>
+																<a href="#selecbox7" class="brand_btn wizard-next">Exellent</a>
+																<p>No scratches, dents or cracks</p>
+																
+															</li>
+															<li>
+																<a href="#selecbox7" class="brand_btn wizard-next">Good</a>
+																<p>Some scratches, dents and / or cracks
+																</p>
+															</li>
+															<li>
+																<a href="#selecbox7" class="brand_btn wizard-next">Moderate</a>
+																<p>Cracked display and / or damaged buttonsNo scratches, dents or cracks
+																</p>
+															</li>
+															
+														</ul>
+													</div>
+												</div>
+											</div>
+							            </div>
+
+							            <!-- <div class="step">
+											<div class="listing_banner_right_part">
+												<div class="choose_brand_part">
+													<div class="choose_brand_header d-flex flex-wrap align-items-center">
+														<h3 class="title">External Items</h3>
+
+														<div class="progress_bar_part">
+															<div class="d-flex align-items-center">
+																<div class="progress">
+																  	<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+																</div>
+																<span class="percent">100%</span>
+															</div>	
+														</div>
+													</div>
+
+													<div class="brand_btn_part">
+														<ul class="d-flex flex-wrap justify-content-between" id="dam_return7">
+															<li>
+																<a href="#" class="brand_btn">Kopfhorer</a>
+															</li>
+															<li>
+																<a href="#" class="brand_btn">Ladegerat und Kabel</a>
+															</li>
+															<li>
+																<a href="#" class="brand_btn">Originalverpackung</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+							            </div> -->
+
+							            <div class="step">
+											<div class="listing_banner_right_part">
+												<div class="choose_brand_part">
+													<div class="choose_brand_header d-flex flex-wrap align-items-center">
+														<h3 class="title">Telephone is supplied with</h3>
+
+														<div class="progress_bar_part">
+															<div class="d-flex align-items-center">
+																<div class="progress">
+																  	<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+																</div>
+																<span class="percent d-none d-xl-block">100%</span>
+															</div>	
+														</div>
+														<span class="step-txt d-block d-xl-none text-center" >Step 8 - 8</span>
+													</div>
+
+													<div class="brand_btn_part">
+														<ul class="d-flex flex-wrap justify-content-between" >
+															<li>
+																<a id="dam_return8" href="#brand9" class="brand_btn">Headphone</a>
+															</li>
+															<li>
+																<a id="dam_return7" href="#brand10" class="brand_btn">Charger &amp; Cable</a>
+															</li>
+															<li>
+																<a id="dam_return9" href="#brand11" class="brand_btn">Original Packaging</a>
+															</li>
+														</ul>
+													</div>
+
+													<div class="price_tendency_box">
+														<div class="d-flex flex-wrap">
+															<span class="fa fa-info-circle icon"></span>
+															<div class="price_tendency_content">
+																<p>The price tendency is 668.00 €**</p>
+																<p>Set your cell phone. We help you to get a price as close as possible to the price trend</p>
+															</div>
+														</div>
+														<a href="javascript:;" class="crosBtn">x</a>
+													</div>
+												</div>
+											</div>
+							            </div>
+									</div>
+									<div class="wizard-footer" style="border: 0;">
+							        	<ul class="d-flex flex-wrap justify-content-end">
+							      
+											<li style="margin-left:-15px;">
+							        			<a id="wizard-last" style="display:none"  href="shop-listing.html" class="btn btn-irv">
+								                  Continue
+												</a>
+							        		</li>
+							        	</ul>
+							        </div>
+
+									<div class="fixed-brand d-block d-xl-none">
+										<div class="listing_brand_part ">
+											<div class="d-flex flex-wrap scrolbox">
+												<div class="brand_box"  id="selecbox1">
+													<p id="brand1">Brand</p>
+													<input id="dam" type="text" readonly style="display: none;"/>
+													<a href="javascript:;" class="removeBtn" id="close">x</a>
+												</div>
+			
+												<div class="brand_box" id="selecbox2">
+													<p id="brand2">Modal</p>
+													<input id="dam1" type="text" readonly style="display: none;"/>
+													<a href="javascript:;" class="removeBtn" id="close1">x</a>
+												</div>
+			
+												<div class="brand_box" id="selecbox3">
+													<p id="brand3">Operator</p>
+													<input id="dam2" type="text" readonly style="display: none;"/>
+													<a href="javascript:;" class="removeBtn" id="close2">x</a>
+												</div>
+			
+												<div class="brand_box" id="selecbox4">
+													<p id="brand4">Capacity</p>
+													<input id="dam3" type="text" readonly style="display: none;"/>
+													<a href="javascript:;" class="removeBtn" id="close3">x</a>
+												</div>
+			
+												<div class="brand_box" id="selecbox5">
+													<p id="brand5">Color</p>
+													<input id="dam4" type="text" readonly style="display: none;"/>
+													<a href="javascript:;" class="removeBtn" id="close4">x</a>
+												</div>
+			
+												<div class="brand_box" id="selecbox6">
+													<p id="brand6">Item Condition</p>
+													<input id="dam5" type="text" readonly style="display: none;"/>
+													<a href="javascript:;" class="removeBtn" id="close5" >x</a>
+												</div>
+			
+												<div class="brand_box" id="selecbox7">
+													<p id="brand7">External Condition</p>
+													<input id="dam6" type="text" readonly style="display: none;"/>
+													<a href="javascript:;" class="removeBtn" id="close6">x</a>
+												</div>
+			
+												<!--div class="brand_box" id="selecbox8">
+													<p id="brand8">Telephone is supplied with
+													</p>
+													<input id="dam7" type="text" readonly style="display: none;"/>
+													<a href="javascript:;" class="removeBtn" id="close7">x</a>
+												</div-->
+			
+												<div class="brand_box" id="selecbox9">
+													<p id="brand9">Telephone is supplied with</p>
+													<input id="dam8" type="text" readonly style="display: none;"/>
+													<a href="javascript:;" class="removeBtn" id="close8">x</a>
+												</div>
+												<div class="brand_box" id="selecbox8">
+													<p id="brand8">Telephone is supplied with</p>
+													<input id="dam7" type="text" readonly style="display: none;"/>
+													<a href="javascript:;" class="removeBtn" id="close7">x</a>
+												</div>
+												<div class="brand_box" id="selecbox10">
+													<p id="brand10">Telephone is supplied with</p>
+													<input id="dam9" type="text" readonly style="display: none;"/>
+													<a href="javascript:;" class="removeBtn" id="close9">x</a>
+												</div>
+											</div>
+										</div> 
+		
+									</div>
+								
+							        <div class="wizard-footer pb-5 d-none d-xl-block" >
+							        	<ul class="d-flex flex-wrap justify-content-end">
+							        	<li>
+											<button id="wizard-prev" style="display:none" type="button" class="btn btn-irv btn-irv-default ">
+														
+												Back
+										  </button>
+										</li>
+							        		<li>
+							        			<button id="wizard-next" type="button" class="btn btn-irv">
+								                  Continue
+								                </button>
+											</li>
+											<li style="margin-left:-15px;">
+							        			<a id="wizard-last" style="display:none"  href="shop-listing.html" class="btn btn-irv">
+								                  Continue
+												</a>
+							        		</li>
+							        	</ul>
+									</div>
+								
+							    </div>
+							</div>
+							<div class="fixed-brand d-none d-xl-block">
+								<div class="listing_brand_part ">
+									<div class="d-flex flex-wrap scrolbox">
+										<div class="brand_box"  id="selecbox1">
+											<p id="brand1">Brand</p>
+											<input id="dam" type="text" readonly style="display: none;"/>
+											<a href="javascript:;" class="removeBtn" id="close">x</a>
+										</div>
+	
+										<div class="brand_box" id="selecbox2">
+											<p id="brand2">Modal</p>
+											<input id="dam1" type="text" readonly style="display: none;"/>
+											<a href="javascript:;" class="removeBtn" id="close1">x</a>
+										</div>
+	
+										<div class="brand_box" id="selecbox3">
+											<p id="brand3">Operator</p>
+											<input id="dam2" type="text" readonly style="display: none;"/>
+											<a href="javascript:;" class="removeBtn" id="close2">x</a>
+										</div>
+	
+										<div class="brand_box" id="selecbox4">
+											<p id="brand4">Capacity</p>
+											<input id="dam3" type="text" readonly style="display: none;"/>
+											<a href="javascript:;" class="removeBtn" id="close3">x</a>
+										</div>
+	
+										<div class="brand_box" id="selecbox5">
+											<p id="brand5">Color</p>
+											<input id="dam4" type="text" readonly style="display: none;"/>
+											<a href="javascript:;" class="removeBtn" id="close4">x</a>
+										</div>
+	
+										<div class="brand_box" id="selecbox6">
+											<p id="brand6">Item Condition</p>
+											<input id="dam5" type="text" readonly style="display: none;"/>
+											<a href="javascript:;" class="removeBtn" id="close5" >x</a>
+										</div>
+	
+										<div class="brand_box" id="selecbox7">
+											<p id="brand7">External Condition</p>
+											<input id="dam6" type="text" readonly style="display: none;"/>
+											<a href="javascript:;" class="removeBtn" id="close6">x</a>
+										</div>
+	
+										<!--div class="brand_box" id="selecbox8">
+											<p id="brand8">Telephone is supplied with
+											</p>
+											<input id="dam7" type="text" readonly style="display: none;"/>
+											<a href="javascript:;" class="removeBtn" id="close7">x</a>
+										</div-->
+	
+										<div class="brand_box" id="selecbox9">
+											<p id="brand9">Telephone is supplied with</p>
+											<input id="dam8" type="text" readonly style="display: none;"/>
+											<a href="javascript:;" class="removeBtn" id="close8">x</a>
+										</div>
+										<div class="brand_box" id="selecbox8">
+											<p id="brand8">Telephone is supplied with</p>
+											<input id="dam7" type="text" readonly style="display: none;"/>
+											<a href="javascript:;" class="removeBtn" id="close7">x</a>
+										</div>
+										<div class="brand_box" id="selecbox10">
+											<p id="brand10">Telephone is supplied with</p>
+											<input id="dam9" type="text" readonly style="display: none;"/>
+											<a href="javascript:;" class="removeBtn" id="close9">x</a>
+										</div>
+									</div>
+								</div> 
+
+							</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- / Content -->
+<!-- Footer -->
+
+
+<!-- / Footer -->
+
+
+
+<!--
+	Start: Mobile Menu
+-->
+<div class="az-sidebar menu_sidebar mobile-menu" style="display: none">
+	<div class="bg-white p-3 py-sm-10rspn border-bottom text-center d-flex d-xl-none align-items-center justify-content-between mt-lg-0-rspn"> <!-- mt-xl-45-rspn -->
+		<a href="" class="float-left w-h-18 mb--7">
+		  <img src="assets/img/back-arrow.svg" class="w-h-25px">
+		</a>
+		
+		<div class="position-relative d-inline-block w-100 w-sm-75rspn mx-4 mx-w-500 top-title">
+		  Add Your Profile
+		</div>
+	  
+		<div class="d-flex search-widget">
+			<span class="search-icon text-theme" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-search"></i></span>
+			<div class="collapse multi-collapse searchwrap" id="multiCollapseExample1">
+			   
+			   <input class="form-control" placeholder="Search Help Center ">
+			   
+			 </div>
+		   </div>
+	  </div>
+
+	<div class="az-sidebar-body menu_list1">
+	  
+		<ul>
+			<a class="dropdown-item font-14 border-bottom py-2 hover-theme" href="basics.html">
+				<img src="assets/img/home.svg" class="w-h-35px radius-25"/>  Basics <i class="fa fa-angle-right float-right pt-2"></i>
+			</a>
+			<a class="dropdown-item font-14 border-bottom py-2 hover-theme" href="company-details.html">
+				<img src="assets/img/company-detail.svg" class="w-h-35px"/>  Company Detail <i class="fa fa-angle-right float-right pt-2"></i>
+			</a>
+			<a class="dropdown-item font-14 border-bottom py-2 hover-theme" href="company-tax-info.html">
+				<img src="assets/img/tax-informations.svg" class="w-h-35px"/> Company Tax Informations <i class="fa fa-angle-right float-right pt-2"></i>
+			</a>
+			<a class="dropdown-item font-14 border-bottom py-2 hover-theme" href="payout-detail.html">
+				<img src="assets/img/payment-detail.svg" class="w-h-35px"/> Payout Details <i class="fa fa-angle-right float-right pt-2"></i>
+			</a>
+			<a class="dropdown-item font-14 border-bottom py-2 hover-theme" href="verifications.html">
+				<img src="assets/img/verification.svg" class="w-h-35px"/>  Verifications <i class="fa fa-angle-right float-right pt-2"></i>
+			</a>
+			<a class="dropdown-item font-14 border-bottom py-2 hover-theme" href="listing-overview.html">
+				<img src="assets/img/listing-overview.svg" class="w-h-35px radius-25"/> Listing Overview <i class="fa fa-angle-right float-right pt-2"></i>
+			</a>
+		   
+			</ul>
+		</div>
+	</div>
+
+	<div class="rsp-home-tab tabhome d-block d-xl-none w-pad-80">
+		<div class="box-for-width">
+		  <div class="box-of-img">
+			<img src="assets/img/noun_talk.svg" class="normal-show">
+			<img src="assets/img/noun_talk_fill.svg" class="click-show d-none">
+			<div class="notify-circle-rspn">1</div>
+		  </div>
+		</div>
+		<div class="box-for-width">
+		  <div class="box-of-img">
+			<img src="assets/img/noun_bill.svg" class="normal-show">
+			<img src="assets/img/noun_bill_fill.svg" class="click-show d-none">
+			<div class="notify-circle-rspn">1</div>
+			
+		  </div>
+		</div>
+		<div class="box-for-width">
+			<div class="box-of-img">
+			  <img src="assets/img/noun_customers.svg" class="normal-show">
+			  <img src="assets/img/noun_customers_fill.svg" class="click-show d-none">
+			</div>
+		  </div>
+		  <div class="box-for-width">
+			<div class="box-of-img">
+			  <img src="assets/img/label.svg" class="normal-show">
+			  <img src="assets/img/label-fill.svg" class="click-show d-none">
+			</div>
+		  </div>
+		<div class="box-for-width">
+		  <div class="box-of-img">
+			<img src="assets/img/notification-bell.svg" class="normal-show">
+			<img src="assets/img/notification-bell-active.svg" class="click-show d-none">
+			<div class="notify-circle-rspn" style="right: 5px;">1</div>
+		  </div>
+		</div>
+
+		<div class="box-for-width">
+		  <div class="box-of-img" id="footer-bars-click">
+			<img src="assets/img/menu.svg" class="normal-show">
+			<img src="assets/img/menu-blue.svg" class="click-show d-none">
+		  </div>
+		</div>
+	  </div>
+<!--
+	Start: Mobile Menu
+-->
+
+  
+	</body>
+	<!-- Jquery Js -->
+	<script src="assets/js/jquery.js" type="text/javascript"></script>
+	<script src="assets/js/popper.min.js" type="text/javascript"></script>
+	<script src="assets/js/jquery-step.js" type="text/javascript"></script>
+	<script src="assets/plugins/bootstrap/dist/js/bootstrap.js" type="text/javascript"></script>
+	<script src="assets/fonts/ionicons/ionicons.js"></script>
+	<script src="assets/js/tagsinput.js"></script>
+
+
+	<script>
+			$(document).ready(function(){
+		$('[data-toggle="tooltip"]').tooltip();		
+		});
+
+		$(document).ready(function(){
+			$("#dam_return a").click(function(){
+				$("#selecbox1").addClass("active");	
+				$("#close").addClass("show");
+				$("#dam").show();
+				$("#brand1").hide();
+			});
+
+			$("#close").click(function(){
+				$("#selecbox1").removeClass("active");			
+				$("#close").removeClass("show");
+				$("#dam").hide();
+				$("#brand1").show();
+			});			
+			$("#dam_return a").click(function(){
+				var value = $(this).html();
+				var input = $('#dam');
+				input.val(value);
+			});
+		
+
+			$("#dam_return1 a").click(function(){
+				$("#selecbox2").addClass("active");	
+				$("#close1").addClass("show");
+				$("#dam1").show();
+				$("#brand2").hide();
+			});
+
+			$("#close1").click(function(){
+				$("#selecbox2").removeClass("active");			
+				$("#close1").removeClass("show");
+				$("#dam1").hide();
+				$("#brand2").show();
+			});			
+			$("#dam_return1 a").click(function(){
+				var value = $(this).html();
+				var input = $('#dam1');
+				input.val(value);
+			});
+
+			$("#dam_return2 a").click(function(){
+				$("#selecbox3").addClass("active");	
+				$("#close2").addClass("show");
+				$("#dam2").show();
+				$("#brand3").hide();
+			});
+
+			$("#close2").click(function(){
+				$("#selecbox3").removeClass("active");			
+				$("#close2").removeClass("show");
+				$("#dam2").hide();
+				$("#brand3").show();
+			});			
+			$("#dam_return2 a").click(function(){
+				var value = $(this).html();
+				var input = $('#dam2');
+				input.val(value);
+			});
+
+			$("#dam_return3 a").click(function(){
+				$("#selecbox4").addClass("active");	
+				$("#close3").addClass("show");
+				$("#dam3").show();
+				$("#brand4").hide();
+			});
+
+			$("#close3").click(function(){
+				$("#selecbox4").removeClass("active");			
+				$("#close3").removeClass("show");
+				$("#dam3").hide();
+				$("#brand4").show();
+			});			
+			$("#dam_return3 a").click(function(){
+				var value = $(this).html();
+				var input = $('#dam3');
+				input.val(value);
+			});
+
+			$("#dam_return4 a").click(function(){
+				$("#selecbox5").addClass("active");	
+				$("#close4").addClass("show");
+				$("#dam4").show();
+				$("#brand5").hide();
+			});
+
+			$("#close4").click(function(){
+				$("#selecbox5").removeClass("active");			
+				$("#close4").removeClass("show");
+				$("#dam4").hide();
+				$("#brand5").show();
+			});			
+			$("#dam_return4 a").click(function(){
+				var value = $(this).html();
+				var input = $('#dam4');
+				input.val(value);
+			});
+
+			$("#dam_return5 a").click(function(){
+				$("#selecbox6").addClass("active");	
+				$("#close5").addClass("show");
+				$("#dam5").show();
+				$("#brand6").hide();
+			});
+
+			$("#close5").click(function(){
+				$("#selecbox6").removeClass("active");			
+				$("#close5").removeClass("show");
+				$("#dam5").hide();
+				$("#brand6").show();
+			});			
+			$("#dam_return5 a").click(function(){
+				var value = $(this).html();
+				var input = $('#dam5');
+				input.val(value);
+			});
+
+			$("#dam_return6 a").click(function(){
+				$("#selecbox7").addClass("active");	
+				$("#close6").addClass("show");
+				$("#dam6").show();
+				$("#brand7").hide();
+			});
+
+			$("#close6").click(function(){
+				$("#selecbox7").removeClass("active");			
+				$("#close6").removeClass("show");
+				$("#dam6").hide();
+				$("#brand7").show();
+			});			
+			$("#dam_return6 a").click(function(){
+				var value = $(this).html();
+				var input = $('#dam6');
+				input.val(value);
+			});
+
+			$("#dam_return7").click(function(){
+				$("#selecbox8").addClass("active");	
+				$("#close7").addClass("show");
+				$("#dam7").show();
+				$("#brand8").hide();
+			});
+
+			$("#close7").click(function(){
+				$("#selecbox8").removeClass("active");			
+				$("#close7").removeClass("show");
+				$("#dam7").hide();
+				$("#brand8").show();
+			});			
+			$("#dam_return7").click(function(){
+				var value = $(this).html();
+				var input = $('#dam7');
+				input.val(value);
+			});
+
+			$("#dam_return8").click(function(){
+				$("#selecbox9").addClass("active");	
+				$("#close8").addClass("show");
+				$("#dam8").show();
+				$("#brand9").hide();
+			});
+
+			$("#close8").click(function(){
+				$("#selecbox9").removeClass("active");			
+				$("#close8").removeClass("show");
+				$("#dam8").hide();
+				$("#brand9").show();
+			});			
+			$("#dam_return8").click(function(){
+				var value = $(this).html();
+				var input = $('#dam8');
+				input.val(value);
+			});
+
+			$("#dam_return9").click(function(){
+				$("#selecbox10").addClass("active");	
+				$("#close9").addClass("show");
+				$("#dam9").show();
+				$("#brand10").hide();
+			});
+
+			$("#close9").click(function(){
+				$("#selecbox10").removeClass("active");			
+				$("#close9").removeClass("show");
+				$("#dam9").hide();
+				$("#brand10").show();
+			});			
+			$("#dam_return9").click(function(){
+				var value = $(this).html();
+				var input = $('#dam9');
+				input.val(value);
+			});
+		
+
+		
+			
+		});
+
+		$(document).ready(function(){
+		    $("#notif-click").click(function(){
+		      $('.notif-tab-big').toggleClass('d-block');
+		    });
+
+		    $("#request-click").click(function(){
+		      $('.request-tab-big').toggleClass('d-block');
+		    });
+
+		    $(".headerSection").each(function(){
+		    	var Height = $(this).outerHeight();
+		    	$(".body_content").css('padding-top', Height);
+		    });
+		});
+	</script>
+	<script>
+		$(".physical_part .physical_navs li a").click(function(){
+			$(".physical_part .physical_navs li").removeClass('active');
+			$(this).parent('li').addClass('active');
+			var dataToggle = $(this).attr('data-toggle');
+			$(".physical_part .physical_tabs_content .tabs_content").each(function(){
+				var id = $(this).attr('id');
+				if(dataToggle == id){
+                    $(".physical_part .physical_tabs_content .tabs_content").removeClass('active');
+                    $(this).addClass('active');
+				}
+			});
+		});
+
+		 $(".physical_input").keyup(function(){
+	      	var searhTxt = $(this).val();
+	      	if(searhTxt != "")
+	      	{
+	        	$(this).parent('.physical_input_box').addClass('keypress-hover');
+	      	}
+	      	else
+	      	{
+	        	$(this).parent('.physical_input_box').removeClass('keypress-hover');
+	      	}
+	    });
+
+		 $("#footer .currency_drop_btn .cur_drop").click(function(){
+		 	$(this).parents('.currency_drop_btn').find('.currency_dropdown').slideToggle();
+		 });
+
+		 $(document).click(function(e){
+			var cur1 = $("#footer .currency_drop_btn .cur_drop");
+			if(!cur1.is(e.target) && cur1.has(e.target).length === 0){
+				$("#footer .currency_drop_btn .currency_dropdown").slideUp();
+			}
+		});
+	</script>
+	
+	<script>
+		$(".rsp-home-tab .box-for-width .box-of-img").click(function(){
+		    $(this).find('.click-show').toggleClass("d-block");
+		    $(this).find('.normal-show').toggleClass("d-none");
+		});
+
+		$("#footer-bars-click").click(function(){
+		    $(".menu_sidebar").toggle();
+		});
+
+		$("#rspn-footer-bar-search").click(function(){
+		    $('#rspn-footer-box-search').toggleClass("opacity-0");
+		    $('#rspn-footer-box-search').parent().siblings().toggleClass("d-none");
+		    $('.rspn-footer-search-suggst').addClass('d-none');
+		    $('.rspn-footer-search-suggst').removeClass('d-block');
+		});
+	</script>
+	
+<script>
+	var maxLength = 500;
+	$('textarea').keyup(function() {
+	  var length = $(this).val().length;
+	  var length = maxLength-length;
+	  $('#chars').text(length);
+	});
+</script>
+
+<script>
+	$('.multi-field-wrapper').each(function() {
+		var $wrapper = $('.multi-fields', this);
+		$(".add-field", $(this)).click(function(e) {
+			$('.multi-field:first-child', $wrapper).clone(true).appendTo($wrapper).find('input').val('').focus();
+		});
+		$('.multi-field .remove-field', $wrapper).click(function() {
+			if ($('.multi-field', $wrapper).length > 1)
+				$(this).parent('.multi-field').remove();
+		});
+	});
+</script>
+
+</html>

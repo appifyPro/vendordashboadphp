@@ -1,0 +1,51 @@
+footer,
+.chat-bubble-section{
+    display:none;
+}
+body{
+    background:#f1f2f2!important;
+    height:auto;
+}
+#rating-ability-wrapper .profiles_content{
+    background:url('../../img/background-voucher.jpg');
+    background-size: cover;
+    background-position: center;
+}
+@media(min-width:992px) and (max-width:1199px){
+    #createad .col-lg-6.col-md-12.position-sticky{
+        top: 93px !important;
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    #createad .col-lg-6.col-md-12.position-sticky{
+        top: 108px !important;
+    }
+    .profiles_content  .profile_info {
+        margin:0 !important;
+    }
+    #createad .col-lg-6.col-md-12 > div{
+        margin:0 0 1rem !important;
+    }
+} 
+@media(min-width:320px) and (max-width:767px){
+    .profiles_content  .profile_info {
+        margin:0 !important;
+    }
+    #createad .col-lg-6.col-md-12 > div{
+        margin:0 0 1rem !important;
+    }
+} 
+@media(max-width:400px){
+    .loyalty-card-section .showbtnbox{
+        padding:0 !important;
+    }
+    .loyalty-card-section .showbtnbox > div{
+        margin:0 10px !important;
+    }
+    #rating-ability-wrapper + div{
+        padding:10px !important;
+    }
+    #Valuebg .mx-5.my-3{
+        margin:10px !important;
+    }
+}

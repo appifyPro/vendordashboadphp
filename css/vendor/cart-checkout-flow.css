@@ -1,0 +1,15 @@
+footer{		display:none;	}	
+body{		background:#f1f2f2!important;		height:auto;	}	
+@media(max-width:1199px){		
+	.rsp-home-tab.tabhome,.top-links-section.mobile-view,.navigation--list.px-3,.bread-crumb.shadow-lg{			display:none !important;		}		
+	.shopping-checkout .shopping-checkout-container{			margin:0 !important;			padding:0 !important;			max-width:100% !important;		}		
+	.shopping-checkout-container > .row > .col-12{			padding:0 !important;		}		
+	.shopping-checkout-container > .row .card .card-body{			background:#fff !important;			padding:0 !important;		}		
+	.shopping-checkout-container .nav-pills li{			display:none;		}		
+	#billing-information .nav-pills li:first-child,		#shipping-information .nav-pills li:nth-child(2),		#payment-information .nav-pills li:last-child{			display:block;		}		
+	#billing-information .right-section ,		#shipping-information .right-section ,		#payment-information .right-section {			display:none !important;		}		
+	.mobile-view{			display:block !important;		}		
+	.desktop-view{			display:none !important;		}		
+	.shopping-checkout .card-body .main-box-container .left-section{			padding: 0 !important;		}	}	
+	@media(min-width:768px) and (max-width:1199px){		#review-cart .table-responsive .desktop-view{			display:block !important;		}		
+	#review-cart .table-responsive .mobile-view{			display:none !important;		}	}

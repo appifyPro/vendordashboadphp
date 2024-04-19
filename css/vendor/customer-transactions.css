@@ -1,0 +1,198 @@
+footer{ display:none;}
+*{  font-family: nunito;}
+body{
+    background:#f1f2f2!important;
+    height:auto;
+}
+#customer-order-list_length,#customer-order-list_filter{
+    display:none;
+}
+.badge{
+    font-size: 13px;
+    padding: 5px 8px;
+    font-weight: normal;
+}
+.badge-success-lighten {
+    color: #086200;
+    background-color: #B4FFAD;
+}
+.badge-warning-lighten {
+    color: #FFAF51;
+    background-color: rgba(255,255,104,.56);
+}
+.badge-info-lighten {
+    color: #0068FF;
+    background-color: #BEE9EF;
+}
+.badge-danger-lighten {
+    color: #FD0707;
+    background-color: #FFB1B1;
+}
+#customer-order-list td,#customer-order-list th{
+    padding:15px !important;
+    line-height:1.5;
+    vertical-align: middle;
+}
+
+#customer-order-list thead.table-light tr th{
+    font-size:15px;
+    text-transform: capitalize;
+}
+#customer-order-list thead.table-light{
+    background:#eef2f7;
+}
+#customer-order-list_filter label{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#customer-order-list_filter label input{
+    width: auto;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: rgb(240, 242, 245);
+    border: 0;
+}
+#customer-order-list_info{
+    font-size: 14px;
+    font-family: Nunito;
+    color: #838c96 !important;
+}
+#customer-order-list_paginate ul li{
+    background: none;
+    padding: 0;
+}
+#customer-order-list_paginate{
+    text-align:right;
+}
+#customer-order-list_paginate .pagination .page-item .page-link{
+    border-radius: 50%;
+    text-align: center;
+    margin:0 5px;
+    height: 36px;
+    width: 36px;
+    line-height: 27px;
+}
+#customer-order-list_paginate .pagination .page-item .page-link:focus{
+    box-shadow:none !important;
+}
+.vendor-customer-transactions{
+    padding-bottom:80px;
+}
+.table-area{
+    align-items:start;
+}
+#customer-order-list thead th{
+    width:1% !important;
+}
+.table-area .transaction-history{
+    width: 360px;
+    flex-shrink: 0;
+    padding: 15px;
+    max-width: 330px;
+    margin-left: auto;
+    border-radius: 5px;
+    background: #0e1b39;
+    position: sticky;
+    top: 169px;
+}
+.table-area .card{
+    width: calc(100% - 360px) !important;
+}
+.transaction-history .history-table tbody td{
+    color: #bac3d5;
+    padding: 1px 0;
+    vertical-align: middle;
+    font-size: 13px;
+}
+.transaction-history .history-table :is(tbody tr td:last-child,thead tr th:last-child){
+    text-align:right;
+    font-weight: 700;
+    color: #fff;
+}
+.transaction-history .history-table thead th{
+    padding: 15px 0 0;
+    color:#fff;
+    vertical-align:middle;
+}
+.transaction-history .history-table .blank td{
+    padding:0 !important;
+}
+.transaction-history .history-table .section-heading td{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.transaction-history .history-table .transaction-sum td:first-child{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.transaction-history .history-table .transaction-sum td:last-child{
+    font-size: 24px;
+    font-weight: 600;
+    color: #547be8;
+}
+.transaction-history .history-table .blank td::after{
+    content: '';
+    height: 1px;
+    background: #bac3d5;
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0;
+}
+#customer-order-list_wrapper .row:last-child{
+    margin:0 !important;
+}
+.transaction-history .our-custom-select .selected-value{
+    padding: 0 25px 0 0 !important;
+}
+.transaction-history .our-custom-select{
+    min-width: 90px;
+    height: 40px;
+    padding:8px 0 0 !important;
+} 
+.transaction-history .our-custom-select .selected-value::after {
+    color:#fff;
+    right:0;
+}
+@media(max-width:1199px){
+    .table-area .card{
+        width: 100% !important;
+    }
+    #customer-order-list thead th.customer {
+        min-width:200px;
+    }
+    #customer-order-list thead th.createAt,
+    #customer-order-list thead th.paidAt{
+        min-width:150px;
+    }
+    .table-area .transaction-history{
+        margin-top:20px;
+        width: 100%;
+        max-width:100%;
+    }
+}
+@media(max-width:991px){
+    .vendor-customer-transactions .page_content :is(.search-area,.other-actions){
+        margin-bottom:15px;
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    body .main_body_content table{
+        z-index: 500;
+        position: relative
+    }
+    .vendor-customer-transactions .page_content .search-area .searchBox{
+        margin:0 !important;
+    }
+    .vendor-customer-transactions .page_content .search-area .showCounter{
+        font-size:14px !important;
+    }
+    .vendor-customer-transactions .page_content .search-area .showCounter select{
+        margin-left: 0.2rem !important;
+    }
+    .tab-content.page_content .card-body > .row{
+        padding: 20px 10px !important;
+    }
+}
